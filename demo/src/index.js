@@ -18,6 +18,7 @@ import { CardElementDemo } from './card-element-demo';
 import { IndividualCardElementsDemo } from './individual-card-elements-demo';
 import { ThreeDSecureDemo } from './three-d-secure-demo';
 import { CheckoutPricing } from './checkout-pricing';
+import { PayPal } from './paypal';
 
 function App () {
   return (
@@ -35,6 +36,9 @@ function App () {
 
       <h2>Checkout Pricing</h2>
       <CheckoutPricing />
+
+      <h2>Paypal</h2>
+      <PayPal />
     </div>
   );
 };
